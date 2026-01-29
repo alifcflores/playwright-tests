@@ -18,8 +18,8 @@ jobs:
       run: npm i
 
     - name: Install playwright
-      run: npx playwright install --with-deps
+      run: npx playwright install
     
     - name: Run Playwright
-      run: npx plawright test
+      run: npx playwright test
     
